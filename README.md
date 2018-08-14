@@ -1,5 +1,20 @@
 # CICD
 
+# AWS
+    sudo aws configure
+    aws ecr --profile alex get-login --no-include-email --region us-east-1
+
+# TERRAFORM
+    - terraform init
+    - export TF_VAR_AWS_ACCESS_KEY=set aws key
+    - export TF_VAR_AWS_SECRET_KEY=set aws key
+    - yes to al tasks: -auto-approve
+    - terraform apply
+    - terraform destroy
+
+
+
+
 ## 1. api-server:8001
 
 
